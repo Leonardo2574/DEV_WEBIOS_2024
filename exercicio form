@@ -1,0 +1,84 @@
+!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>FORMULÁRIO DA EMPRESA</h2>
+    <br>
+
+    <form action="">
+
+        <label>Nome da Empresa</label>
+        <input type="text">
+        <br>
+        <br>
+
+        <label>Data que entrou na empresa</label>
+        <input type="date">
+        <br>
+        <br>
+
+        <label>Quantidades de funcionários</label>
+        <input type="number">
+        <br>
+        <br>
+
+        <label>Salário</label>
+        1.000
+        <input type="range">
+        3.000
+        <br>
+        <br>
+
+        <Label>Ainda está a empresa</Label>
+        <br>
+        <input type="radio" name="sim">
+        <label>sim</label>
+        <br>
+        <input type="radio" name="sim">
+        <label>não</label>
+        <br>
+        <br>
+
+        <label>Você é:</label>
+        <br>
+        <input type="radio" name="pj">
+        <label>clt</label>
+        <br>
+        <input type="radio" name="pj">
+        <label>pj</label>
+        <br>
+        <br>
+
+        <label>Beneficíos</label>
+        <br>
+        <select>
+            <option value=""></option>
+            <option value="">Vale Refeição</option>
+            <option value="">Vale Alimentação</option>
+            <option value="">Vale Transporte</option>
+            <option value="">Academia</option>
+            <option value="">PLR</option>
+            <option value="">Plano de Saúde</option>
+            <option value="">Plano Odontológico</option>
+            <option value="">Cesta Básica</option>
+            <option value="">Day off</option>
+            <option value="">Bolsa de Estudos</option>
+            <option value="">Licença Maternidade ou Paternidade</option>
+            <option value="">Pet Friendly</option>
+            <option value="">Empréstimo consignado</option>
+        </select>
+
+
+       
+
+
+
+
+    </form>
+    
+</body>
+</html>
