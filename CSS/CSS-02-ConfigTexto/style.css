@@ -5,12 +5,18 @@ body{
 
 h1{
     font-size: 100px ;
+    text-shadow: 10px 5px 5px blue;
 }
 
 p{
     font-size: 25px;
+    font-weight: 500px;
+    line-height: 50px;
+    text-shadow: 10px 5px 10px blue;
+    
 }
 img{
-    height: 200px;
-    width: 200;
+    height: 500%;
+    width: 50%;
+    box-shadow: 10px 5px 10px blue;
 }
