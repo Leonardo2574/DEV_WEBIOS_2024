@@ -1,0 +1,20 @@
+body{
+    background-image: url("https://picsum.photos/id/1067/600/400");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+#PrimeiroParagrafo{
+    border: 2px solid green;
+    border-radius: 5px;
+}    
+
+img{
+    border-radius: 10px;
+}
+
+#montanha{
+    border: 2px solid green;
+}
