@@ -1,6 +1,30 @@
+#botao{
+   border: 1px solid blue;
+   background-color: red;
+   border-radius: 5px;
+}
 
- p:first-child{
-    
-    background-color: aqua;
- }
- /*last-child para ultimo filho
+#botao:hover{
+   color: white;
+   background-color: rgb(57, 190, 80);
+   font-size: 50px;
+}
+
+#paragrafoHover:hover{
+   color: rgb(87, 206, 166);
+   background-color: rgb(201, 83, 171);
+   border: 5px solid black;
+   border-radius: 10px;
+}
+
+#titulo2:hover{
+   color: rgb(87, 145, 196);
+   font-family: "Jersey 10", sans-serif;
+   
+}
+
+#imagem:hover{
+   box-shadow: 10px 10px 10px blue;
+   width: 700px;
+   height: 500px;
+}
