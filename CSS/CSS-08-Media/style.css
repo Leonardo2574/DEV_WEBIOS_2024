@@ -1,0 +1,15 @@
+img{
+    width: 700px;
+}
+
+/* enquanto a largura maxima for de 450px 
+largura das imagens serao de 200px 
+min-width / max-width */
+
+@media(max-width: 450px) {
+    img{
+        max-width: 200px;
+    }
+}
+    
+       
