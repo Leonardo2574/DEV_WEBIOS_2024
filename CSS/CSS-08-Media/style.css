@@ -1,15 +1,36 @@
 img{
     width: 700px;
 }
-
-/* enquanto a largura maxima for de 450px 
-largura das imagens serao de 200px 
-min-width / max-width */
-
 @media(max-width: 450px) {
+    body{
+        background-color: aqua;
+    }
+
     img{
-        max-width: 200px;
+        width: 200px;
+    }
+
+    img:hover {
+        border: 1px solid black;
+        border-radius: 5px;
+        box-shadow: 10px 10px 10px black;
     }
 }
-    
+
+@media(min-width: 452px) {
+    body{
+        background-color: blue;
+    }
+
+    img{
+        width: 800px;
+    }
+
+    img:hover{
+        box-shadow: 10px 10px 10px white;
+        border-radius: 5px 5px 5px white;
+        
+    }
+}
+  
        
