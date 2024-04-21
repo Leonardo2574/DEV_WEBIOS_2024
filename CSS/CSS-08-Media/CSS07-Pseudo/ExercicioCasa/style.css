@@ -1,0 +1,80 @@
+body{
+    background-image: url("./Attack-on-Titan-latest-11.jpg");
+}
+
+#bloco01{
+    padding: 2em;
+    border: 2px solid #c1c2bc;
+    background-color: #c1c2bc;
+    margin-left: 20%;
+    margin-right: 20%;
+    float: right;
+   
+}
+
+#prf:hover{
+    background-color: #314a20;
+    color: white;
+}
+
+img{
+    width: 50%;
+    float: left;
+
+}
+
+#img1:hover{
+    width: 100%;
+}
+
+#bloco02{
+    border: 2px solid #c1c2bc ;
+    padding: 2em;
+    background-color: #c1c2bc;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+#bloco3{
+    padding: 2em;
+    border: 5px solid #c1c2bc;
+    background-color: #c1c2bc;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+#n2{
+   float: right;
+}
+
+#n4{
+    float: right;
+}
+
+#img2{
+    width: 15%;
+    float: left;
+}
+
+#img3{
+    width: 15%;
+    float: right;
+}
+
+#img4{
+    width: 15%;
+    float: left;
+}
+
+#img5{
+    width: 15%;
+    float: right;
+}
+
+footer{
+    padding: 2em;
+    border: #c1c2bc;
+    background-color: #c1c2bc;
+    margin-left: 20%;
+    margin-right: 20%;
+}
