@@ -2,7 +2,7 @@
 
 ### Leonardo
 
-Estou no curso de de desenvolvimento web para de mudar 
+Estou no curso de de desenvolvimento web para mudar 
 de carreira
 
 ### Meu primeiro código
