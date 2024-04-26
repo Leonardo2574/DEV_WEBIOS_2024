@@ -1,4 +1,31 @@
 #container{
     display: grid;
-    grid-template-columns: repeat(9, 50px) ;
+    grid-template-columns: repeat(4, 1fr);
+    /* grid-template-rows: repeat(3, 50px) ; */
+    grid-template-areas: "header header header header" "main main . sidebar" "footer footer footer footer";
+    column-gap: 10px;
+    row-gap: 15px;
+    /* justify-items: center;
+    align-items: center; */
+}
+.itens{
+    background-color: aqua;
+    /* width: 50%;
+    height: 50%; */
+}
+
+#item-1{
+    grid-area: header;
+}
+
+#item-2{
+    grid-area: main;
+}
+
+#item-3{
+    grid-area: sidebar;
+}
+
+#item-4{
+    grid-area: footer;
 }
