@@ -17,3 +17,11 @@
     grid-row-end: 6 ;
 }
 
+#item-8{
+    justify-self: stretch;
+    align-items: stretch ;
+    place-self: center;
+    width: 50%;
+    height: 50%;
+}
+
