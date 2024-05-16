@@ -17,18 +17,10 @@ do{
 }while(contador < 10)
 
 
-if{
-    for(){
+var tabuada = 5
 
+if(tabuada === 5 ){
+    for(var numero = 1; numero <=10; numero++){
+        console.log(`${tabuada} x ${numero} = ${tabuada / numero}`)
     }
-}else{
-    while(){
-
-    }
-}
-
-
-
-for(contador = 0; contador < 10; contador++;){
-    console.log(contador + "ainda é menor que 10")
 }
