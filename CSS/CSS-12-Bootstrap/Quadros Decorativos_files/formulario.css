@@ -1,0 +1,219 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 50px;
+    margin-right: 30px;
+    background-color: #12122b;
+    color: white;
+}
+.contaier{
+    max-width: 1400px;
+    padding: 28px;
+    margin: 0 28px;
+    border-radius: 10px;
+}
+h1{
+    display: flex;
+    justify-content: center;
+    font-size: 26px;
+    font-weight: bold;
+    padding-bottom: 8px;
+}
+h3{
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+}
+.content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.input-box{
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+    padding-bottom: 15px ;
+}
+.input-box label{
+    width: 95%;
+    font-weight: bold;
+    padding: 0 10px;
+    border-radius: 5px;
+}
+.input-box input{
+    height: 40px;
+    width: 95%;
+    padding:  0 10px;
+    border-radius: 5px;
+}
+.b1{
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+    padding-bottom: 15px;
+}
+.b1 label{
+   width: 95%;
+   font-weight: bold;
+   padding: 0 10px;
+   border-radius: 5px;
+}
+.b2{
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+    padding-bottom: 15px;
+}
+.b2 label{
+    width: 95%;
+    font-weight: bold;
+    padding: 0 10px;
+    border-radius: 5px;
+}
+.b2 input{
+    height: 40px;
+    width: 95%;
+    padding:  0 10px;
+    border-radius: 5px;
+}
+.b3{
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+    padding-bottom: 15px;
+}
+.b3 label{
+    width: 95%;
+    font-weight: bold;
+    padding: 0 10px;
+    border-radius: 5px;
+}
+.b3 input{
+    height: 40px;
+    width: 95%;
+    padding: 0 10px;
+    border-radius: 5px;
+}
+textarea{
+    width: 95%;
+    padding: 0 10px 0 10px;
+    border-radius: 5px;
+}
+button{
+    height: 20px;
+    width: 20%;
+    padding: 0 10px;
+    border-radius: 5px;
+}
+#botao:hover{
+    background-color: #5ac7aa;
+    font-weight: bold;
+    text-decoration: underline;
+    box-shadow: 1px 2px 2px black;
+}
+h4{
+    display: flex;
+    justify-content: start;
+}
+.q1{
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+    padding-bottom: 15px;
+}
+.q1 label{
+    width: 95%;
+    font-weight: bold;
+    padding: 0 10px;
+    border-radius: 5px;
+}
+.q2{
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+    padding-bottom: 15px;
+}
+.q2 label{
+    width: 95%;
+    font-weight: bold;
+    padding: 0 10px;
+    border-radius: 5px;
+}
+.q3{
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+    padding-bottom: 15px;
+}
+.q3 label{
+    width: 95%;
+    font-weight: bold;
+    padding: 0 10px;
+    border-radius: 5px;
+}
+#botao2:hover{
+    color: #5ac7aa;
+    font-weight: bold;
+    text-decoration: underline;
+}
+@media(max-width:300px) {
+    .container{
+        min-width: 200px;
+    }
+    .content{
+        max-height: 500px;
+    }
+    .input-box{
+        margin-bottom: 12px;
+        width: 100%;
+    }
+    .b1{
+        margin-bottom: 12px;
+        width: 100%; 
+    }
+    .b2{
+        margin-bottom: 12px;
+        width: 100%;
+    }
+    .b3{
+        margin-bottom: 12px;
+        width: 100%;
+    }
+    .q1{
+        margin-bottom: 12px;
+        width: 100%;
+    }
+    .q2{
+        margin-bottom: 12px;
+        width: 100%;
+    }
+    .q3{
+        margin-bottom: 12px;
+        width: 100%;
+    }
+    h1{
+        margin-bottom: 12px;
+        width: 100%
+    }
+    h2{
+        margin-bottom: 12px;
+        width: 100%;
+    }
+    h3{
+        margin-bottom: 12px;
+        width: 100%;
+    }
+    h4{
+        margin-bottom: 12px;
+        width: 100%;
+    } 
+
+}
