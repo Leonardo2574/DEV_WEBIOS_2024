@@ -67,3 +67,16 @@ let tarefaFiltro = tarefa.map((resultadoFiltro) => {
   return resultadoFiltro.isPronta === false
 })
 console.log(tarefaFiltro)
+
+console.clear()
+
+//METODO FIND
+let sapatos = [
+  { marca: "nike", quantidade: 3 },
+  { marca: "Adidas", quantidade: 5 },
+  { marca: "Puma", quantidade: 7 },
+];
+sapatos.find((retornaFind) => {
+  console.log(retornaFind.marca === "Puma")  
+})
+
