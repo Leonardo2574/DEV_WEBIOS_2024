@@ -16,7 +16,7 @@ class carro {
 }
 // criar uma nova copia da classe =
 let carro1 = new carro("KWID", 2012);
-let carro2 = new carro("MOBi", 2015);
+let carro2 = new carro("MOBi", 2015); 
 
 console.log(carro)
 console.log(carro1)
