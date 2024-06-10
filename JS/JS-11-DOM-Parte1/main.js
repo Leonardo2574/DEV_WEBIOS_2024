@@ -9,6 +9,7 @@ window.prompt("está feliz?")
 
 document.title = "Times"
 
+
 var time = prompt("Qual é o nome do time?")
 
 if(time == "são paulo"){
